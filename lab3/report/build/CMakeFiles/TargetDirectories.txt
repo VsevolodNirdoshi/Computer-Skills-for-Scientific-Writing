@@ -1,0 +1,8 @@
+D:/MCA/work/lab3/report/build/CMakeFiles/build_all.dir
+D:/MCA/work/lab3/report/build/CMakeFiles/build_pdf.dir
+D:/MCA/work/lab3/report/build/CMakeFiles/build_docx.dir
+D:/MCA/work/lab3/report/build/CMakeFiles/lab3_pdf.dir
+D:/MCA/work/lab3/report/build/CMakeFiles/lab3_docx.dir
+D:/MCA/work/lab3/report/build/CMakeFiles/clean_all.dir
+D:/MCA/work/lab3/report/build/CMakeFiles/edit_cache.dir
+D:/MCA/work/lab3/report/build/CMakeFiles/rebuild_cache.dir

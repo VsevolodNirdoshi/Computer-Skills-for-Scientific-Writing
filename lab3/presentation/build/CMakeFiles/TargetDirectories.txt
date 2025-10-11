@@ -1,0 +1,8 @@
+D:/MCA/work/lab3/presentation/build/CMakeFiles/build_all.dir
+D:/MCA/work/lab3/presentation/build/CMakeFiles/build_pdf.dir
+D:/MCA/work/lab3/presentation/build/CMakeFiles/build_html.dir
+D:/MCA/work/lab3/presentation/build/CMakeFiles/presentation_pdf.dir
+D:/MCA/work/lab3/presentation/build/CMakeFiles/presentation_html.dir
+D:/MCA/work/lab3/presentation/build/CMakeFiles/clean_all.dir
+D:/MCA/work/lab3/presentation/build/CMakeFiles/edit_cache.dir
+D:/MCA/work/lab3/presentation/build/CMakeFiles/rebuild_cache.dir

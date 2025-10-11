@@ -1,0 +1,210 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{mathtools}
+
+ \newcommand{\diff}{\mathop{}\!d}
+
+ \begin{document}
+
+\section*{3 Mathematics Typing}
+\subsection*{ 3.1 Mathmode}
+ A sentence with inline mathematics: \( y = mx + c \).
+
+3 Mathematics Typing
+ 
+ A second sentence with inline mathematics:
+ $5^{2}=3^{2}+4^{2}$.
+ A second paragraph containing display math.
+ \[
+ y = mx + c
+ \]
+ See how the paragraph continues after the display.
+
+
+ Superscripts $a^{2}$ and subscripts $a_{2}$.
+
+ Some mathematics: $y = 2 \sin \theta^{2}$.
+
+
+
+\subsection*{ 3.1.2 Display mathematics}
+
+ A paragraph about a larger equation
+ \[
+ \int_{-\infty}^{+\infty} e^{-x^2} \, dx
+ \]
+
+
+ A paragraph about a larger equation
+ \[
+ \int_{-\infty}^{+\infty} e^{-x^2} \diff x
+ \]
+
+ A paragraph about a larger equation
+ \begin{equation}
+ \int_{-\infty}^{+\infty} e^{-x^2} \, dx
+ \end{equation}
+
+
+\subsection*{Theamsmathpackage}
+
+ \begin{align*}
+ Q_{n,0} &= 1 \quad Q_{0,k} = [k=0]; \\
+ Q_{n,k} &= Q_{n-1,k}+Q_{n-1,k-1}+\binom{n}{k},
+ \quad\text{for $n$, $k>0$.}
+ \end{align*}
+
+ AMS matrices.
+ \[
+ \begin{matrix}
+ a & b & c \\
+ d & e & f
+ \end{matrix}
+ \quad
+ \begin{pmatrix}
+ a & b & c \\
+ d & e & f
+ \end{pmatrix}
+ \quad
+ \begin{bmatrix}
+ a & b & c \\
+ d & e & f
+ \end{bmatrix}
+ \]
+
+												\subsection*{}
+
+\subsection*{ 3.3 Fontsinmathmode}
+
+\begin{itemize}
+\item$\mathrm{roman(upright)}$
+
+\item$\mathit{italic spaced as ‘text’}$
+
+\item$\mathbf{boldface}$
+
+\item$\mathsf{sansserif}$
+
+\item$\mathtt{monospaced(typewriter)}$
+
+\item$\mathbb{ABC}$
+\end{itemize}
+
+ The matrix $\mathbf{M}$.
+
+$\text{bad use } size \neq \mathit{size} \neq \mathrm{size} $
+
+ \textit{$\text{bad use } size \neq \mathit{size} \neq
+ \mathrm{size} $}
+
+\subsection*{ 3.4 Further amsmath alignments}
+
+ Gather
+ \begin{gather}
+ P(x)=ax^{5}+bx^{4}+cx^{3}+dx^{2}+ex +f\\
+ x^2+x=10
+ \end{gather}
+ Multline
+ \begin{multline*}
+ (a+b+c+d)x^{5}+(b+c+d+e)x^{4} \\
+ +(c+d+e+f)x^{3}+(d+e+f+a)x^{2}+(e+f+a+b)x\\
+ + (f+a+b+c)
+ \end{multline*}
+
+
+
+
+\subsection*{ 3.4.1 Columns in math alignments}
+
+ Aligned equations
+ \begin{align*}
+ a &= b+1 & c &= d+2 & e &= f+3 \\
+ r &= s^{2} & t &=u^{3} & v &= w^{4}
+ \end{align*}
+
+
+ \begin{itemize}
+ \item
+ $\begin{aligned}[t]
+ a&=b\\
+ c&=d
+ \end{aligned}$
+ \item
+ $\begin{aligned}
+ a&=b\\
+ c&=d
+ \end{aligned}$
+ \end{itemize}
+
+\subsection*{}
+\subsection*{ 3.5 Bold Math}
+
+ $(x+y)(x-y)=x^{2}-y^{2}$
+ {\boldmath $(x+y)(x-y)=x^{2}-y^{2}$ $\pi r^2$}
+ $(x+\mathbf{y})(x-\mathbf{y})=x^{2}-{\mathbf{y}}^{2}$
+ $\mathbf{\pi} r^2$ % bad use of \mathbf
+
+
+
+$(x+\mathbf{y})(x-\mathbf{y})=x^{2}-{\mathbf{y}}^{2}$
+ $(x+\bm{y})(x-\bm{y}) \bm{=} x^{2}-{\bm{y}}^{2}$
+ $\alpha + \bm{\alpha} < \beta + \bm{\beta}$
+
+
+\subsection*{ 3.6 Mathtools}
+
+ \[
+ \begin{pmatrix*}[r]
+ 10&11\\
+ 1&2\\-5&-6
+ \end{pmatrix*}
+ \]
+
+\subsection*{Greek letters}
+\begin{itemize}
+\item$\pi$
+
+\item$\theta$
+
+\item$\beta$
+
+\item$\xi$
+
+\item$\Lambda$
+
+\item$\Delta$
+
+\item$\Psi$
+
+\item$\Delta$
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ \end{document}
