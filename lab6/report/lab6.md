@@ -60,6 +60,11 @@ header-includes:
   - \usepackage{indentfirst}
   - \usepackage{float} # keep figures where there are in the text
   - \floatplacement{figure}{H} # keep figures where there are in the text
+
+##![test image size](/img/post-bg-2015.jpg){:class="img-responsive"}
+##![test image size](/img/post-bg-2015.jpg){:height="50%" width="50%"}
+##![test image size](/img/post-bg-2015.jpg){:height="700px" width="400px"}
+##![test image size](/img/post-bg-2015.jpg){height=25}{width=150}
 ---
 
 ### **Лабораторная работа № 6. Библиография и ссылки в LaTeX**
