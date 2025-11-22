@@ -442,6 +442,3 @@ Together \autocite{Thomas2008,Graham1995}
 ### Список литературы {.unnumbered}
 
 @book
-
-
-
