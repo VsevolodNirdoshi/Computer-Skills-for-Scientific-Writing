@@ -1,0 +1,37 @@
+ \documentclass[a0, portrait]{a0poster}
+\usepackage{graphicx}
+ \usepackage{multicol}
+\usepackage{caption}
+\usepackage{tikz}
+ \usepackage[svgnames]{xcolor}
+
+
+\begin{document}
+ \begin{minipage}{.7\textwidth}
+ \VeryHuge Look I'm making a poster \\ [0.75cm]
+ \Large Ostap S. Bender \\
+ \Large RUDN University
+ \end{minipage}
+ %
+ \begin{minipage}{.3\textwidth}
+
+ \end{minipage}
+
+
+ \begin{center}
+ \includegraphics{pic.jpg}
+ \captionof{figure}{Insert your caption here}
+ \end{center}
+
+ \begin{center}
+ \begin{tikzpicture}
+ ...
+ \end{tikzpicture}
+ \captionof{figure}{...}
+ \end{center}
+
+\begin{multicols}{2}
+ Here follows some regular text, \color{BlueViolet} from now on the text has changed colour, \color{Black} and then we are back to normal.
+\end{multicols}
+
+\end{document}

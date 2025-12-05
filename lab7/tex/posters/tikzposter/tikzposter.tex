@@ -1,0 +1,57 @@
+\documentclass[24pt, a0paper, portrait]{tikzposter}
+\usepackage{graphicx}
+ \usepackage{multicol}
+\usepackage{caption}
+\usepackage{tikz}
+
+\usetheme{Simple} 
+
+
+ \title{Look I'm making a poster}
+ \author{Ostap S. Bender}
+ \institute{RUDN University}
+\begin{document}
+\maketitle
+
+ \begin{columns}
+ \column{.33}
+Hello there lets output 123
+
+\column{.33}
+and now we output 456
+
+ 
+\column{.33}
+lets not forget about 789
+
+ \end{columns}
+
+ \begin{columns}
+\column{.7}
+ and in the end here goes 10
+
+
+\column{.3}
+ finish
+
+
+\block{title}{content \vspace{2cm}
+
+
+ \begin{center}
+ \includegraphics{pic.jpg}
+ \captionof{figure}{Insert your caption here}
+ \end{center}
+
+ 
+ \begin{center}
+ \begin{tikzpicture}
+ ...
+ \end{tikzpicture}
+ \captionof{figure}{...}
+ \end{center}
+}
+ \note[targetoffsetx=2cm, targetoffsety=-1cm, width=5cm]{note content}
+\end{columns}
+
+ \end{document}

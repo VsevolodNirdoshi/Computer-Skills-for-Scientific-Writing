@@ -1,0 +1,40 @@
+ \documentclass[xcolor={svgnames}]{beamer}
+\usepackage{graphicx}
+ \usepackage{multicol}
+\usepackage{caption}
+\usepackage{tikz}
+
+ \usetheme{default}
+ \usecolortheme{seahorse}
+\usepackage[orientation=portrait,size=a0,scale=1.4]{beamerposter}
+
+ \title{Look I'm making a poster}
+ \author{Ostap S. Bender}
+ \institute{RUDN University}
+\begin{document}
+ \begin{frame}
+ \begin{columns}
+ \begin{column}{.33\textwidth}
+Hello there lets output 123
+ \end{column}
+
+ \begin{column}{.33\textwidth}
+and now we output 456
+ \end{column}
+ 
+ \begin{column}{.33\textwidth}
+lets not forget about 789
+\end{column}
+ \end{columns}
+
+ \begin{columns}
+ \begin{column}{.7\textwidth}
+ and in the end here goes 10
+ \end{column}
+ %
+ \begin{column}{.3\textwidth}
+ finish
+ \end{column}
+\end{columns}
+ \end{frame}
+ \end{document}
