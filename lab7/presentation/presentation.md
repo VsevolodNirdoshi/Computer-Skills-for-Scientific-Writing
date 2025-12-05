@@ -36,8 +36,6 @@ header-includes:
 Презентации и постеры в LaTeX:  
 `beamer`, `a0poster`, `beamerposter`, `tikzposter`.
 
-
-
 ## **Цель и задачи**
 
 - Освоить создание презентаций в классе `beamer`.
@@ -47,7 +45,6 @@ header-includes:
   - `beamerposter`
   - `tikzposter`
 - Связать примеры с пунктами главы 7 книги.
-
 
 # **7.1 Презентация с Beamer**
 
@@ -77,7 +74,6 @@ header-includes:
 \end{frame}
 ```
 
-
 ## **7.1.1 Структура презентации — блоки**
 
 Для структурирования информации используются блоки:
@@ -98,12 +94,8 @@ header-includes:
 
 ## **Скриншоты:**
 
-
 ![](pic/1.jpg){height=170}
 ![](pic/1.1.jpg){height=170}
-
-
-
 
 ## **7.1.2 Pauses — пошаговое появление**
 
@@ -130,8 +122,6 @@ header-includes:
   \end{block}
 \end{frame}
 ```
-
-
 
 ## **7.1.2 Pauses — визуальный эффект**
 
@@ -170,8 +160,6 @@ header-includes:
 2. формула в `align*`;
 3. список интервалов.
 
-
-
 ## **7.1.3a Uncover в тексте и формулах (Sets)**
 
 Основной приём: постепенно раскрывать определение множества и стандартные множества `(\mathbb{N},\mathbb{Z},\mathbb{Q},\mathbb{R})`.
@@ -191,8 +179,6 @@ Z=\{\text{cow},\text{pig},\text{elephant}\}.
 \uncover<7->{\mathbb{N}} \uncover<8->{= \{1,2,3,\ldots \}} ...
 ```
 
-
-
 ## **7.1.3a Uncover (Sets) — эффект**
 
 * Шаги:
@@ -209,8 +195,6 @@ Z=\{\text{cow},\text{pig},\text{elephant}\}.
 
 ![](pic/3.jpg){height=170}
 ![](pic/3.1.jpg){height=170}
-
-
 
 ## **7.1.3b Uncover в `align*` — идея**
 
