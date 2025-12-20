@@ -25,3 +25,7 @@
 # lab07
 
 **Full Changelog**: https://github.com/VsevolodNirdoshi/Computer-Skills-for-Scientific-Writing/releases/tag/Lab_7
+
+# lab08
+
+**Full Changelog**: https://github.com/VsevolodNirdoshi/Computer-Skills-for-Scientific-Writing/releases/tag/Lab_8
